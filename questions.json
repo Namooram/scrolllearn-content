@@ -3,29 +3,333 @@
   "updated": "2026-10-10",
   "questions": [
     {
-      "id": "bio-001",
-      "subject": "Biology",
-      "type": "quiz",
-      "question": "What is the chemical symbol for water?",
-      "options": ["H2O", "CO2", "NaCl", "O2"],
-      "correctIndex": 0,
-      "explanation": "Water is made of two hydrogen atoms and one oxygen atom."
-    },
-    {
-      "id": "geo-001",
-      "subject": "Geography",
-      "type": "quiz",
-      "question": "What is the largest ocean on Earth?",
-      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
-      "correctIndex": 2,
-      "explanation": "The Pacific covers about 30% of Earth's surface."
-    },
-    {
-      "id": "note-001",
+      "id": "slj-note-001",
       "type": "text",
-      "title": "Welcome to ScrollLearn!",
-      "content": "Swipe up to review the questions you missed. Tap an answer to see if you got it right.\n\nUse the refresh button to pull your latest questions from GitHub.",
+      "title": "Slovenský jazyk – opakovanie chýb",
+      "content": "Tieto otázky vznikli z úloh, ktoré v teste z 11. mája 2015 (8-ročné štúdium, verzia A) chýbali alebo boli nesprávne.\n\nPri otázkach s viacerými správnymi možnosťami vyber správnu kombináciu písmen.",
       "color": "#6B48FF"
+    },
+    {
+      "id": "slj-note-002",
+      "type": "text",
+      "title": "Spodobovanie",
+      "content": "Pri spodobovaní sa znelá a neznelá hláska prispôsobia susednej.\n\nliečba → [liedžba]\nmriežka → [mrieška]\nlebka → [lepka]\nrozchod → [rosχod]\nnadpis → [natpis]\n\nNEspodobuje sa: spite, chlapcom (p a c sú obe neznelé).",
+      "color": "#E8590C"
+    },
+    {
+      "id": "slj-q02",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach sa všetky slová spodobujú?\nA. liečba, mriežka, lebka\nB. jedzte, spite, choďte\nC. rozchod, nadpis, príbeh\nD. chlapcom, vrabcom, sladkom",
+      "options": [
+        "A a C",
+        "A, C a D",
+        "Len C",
+        "B a D"
+      ],
+      "correctIndex": 0,
+      "explanation": "A: liečba [liedžba], mriežka [mrieška], lebka [lepka]. C: rozchod [rosχod], nadpis [natpis], príbeh [príbeχ]. B nie je správne, lebo „spite“ sa nespodobuje. D nie je správne, lebo „chlapcom“ sa nespodobuje (p aj c sú neznelé)."
+    },
+    {
+      "id": "slj-q05",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach sú vety napísané správne?\nA. Dnes som tú báseň opäť nevedel celú naspamäť.\nB. Večšina spolužiakov už mala deväť rokov.\nC. Po celom tom zmetku sme radšej išli naspäť.\nD. S napätím čakali, či bude vinník uväznený.",
+      "options": [
+        "B a C",
+        "Len D",
+        "A a D",
+        "A, B a D"
+      ],
+      "correctIndex": 2,
+      "explanation": "A a D sú správne. B: správne je „Väčšina“ (nie Večšina). C: správne je „zmätku“ (nie zmetku)."
+    },
+    {
+      "id": "slj-q09",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorej vete treba na vynechané miesto doplniť -ý?",
+      "options": [
+        "Neohýbaj to, lebo sa to ulom......",
+        "Janka ťa srdečne zdrav......",
+        "Všetci sme úplne zdrav......",
+        "Brat chodí najradšej bos......"
+      ],
+      "correctIndex": 3,
+      "explanation": "Správne je „bosý“ (prídavné meno, mužský rod). V ostatných vetách ide o slovesá alebo podmet v množnom čísle: zdraví, ulomí, zdraví – píšeme „í“."
+    },
+    {
+      "id": "slj-q10",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach treba na vynechané miesto doplniť -i?\nA. Načo sa tak náhl...., radšej by mal trochu spomaliť.\nB. Náhl.... zvuk zvončeka ho vyrušil zo zamyslenia.\nC. Pred pokladnicou kina sme stál.... v dlhom rade.\nD. Naši zákazníci majú stál.... záujem o tento tovar.",
+      "options": [
+        "Len A",
+        "A a C",
+        "A, B a C",
+        "B a D"
+      ],
+      "correctIndex": 1,
+      "explanation": "A: náhliš (sloveso) a C: stáli (sloveso) → píšeme i. B: náhly zvuk a D: stály záujem sú prídavné mená → píšeme y."
+    },
+    {
+      "id": "slj-q23",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V texte sú dve chyby v písaní s/z:\n„Vzala do ruky cerusku a o chvíľu bola kresba hotová. Z obrázka sa usmievali princ s princeznou zo zlatou hviezdou a za nimi bola krásna lúka so zámkom z číreho skla.“\nKtorá dvojica opráv je správna?",
+      "options": [
+        "ceruzku a s číreho skla",
+        "ceruzku a S obrázka",
+        "ceruzku a so zlatou",
+        "so zámkom a z číreho skla"
+      ],
+      "correctIndex": 2,
+      "explanation": "Správne je „ceruzku“ (ceruza) a „so zlatou hviezdou“ (s/so = spolu s niečím). „Z obrázka“ a „z číreho skla“ sú správne (z/zo = z niečoho)."
+    },
+    {
+      "id": "slj-q31",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Doplň správny tvar: Keď deti vybehli … dver__, z oblohy sa už sypali vločky.",
+      "options": [
+        "z dverí",
+        "z dvery",
+        "z dverý",
+        "z dveri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dvere je pomnožné podstatné meno. Genitív množného čísla je „dverí“ (z dverí)."
+    },
+    {
+      "id": "slj-q32",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Nahraď podčiarknuté slovo slovom „My“ a prepíš vetu správne:\nTy si vždy nalovil najviac rýb.",
+      "options": [
+        "My sme si vždy nalovily najviac rýb.",
+        "My sme si vždy nalovil najviac rýb.",
+        "My si vždy nalovil najviac rýb.",
+        "My sme si vždy nalovili najviac rýb."
+      ],
+      "correctIndex": 3,
+      "explanation": "Podmet „my“ je v množnom čísle, preto: my sme nalovili. Pri mužskom životnom rode píšeme -i (nalovili), nie -y."
+    },
+    {
+      "id": "slj-note-003",
+      "type": "text",
+      "title": "Vzory podstatných mien",
+      "content": "Mužský rod:\nchlap – dedko, brat, strýko, spisovateľ, kamarát, autor\nhrdina – golfista\n\nŽenský rod:\nžena – Božena, Boženka\nulica – Boža, sukňa, sója, hrádza (mäkká spoluhláska ň, j, dz...)\ndlaň – laň, loď, byľ\n\nStredný rod:\nmesto – pravítko, lano\n\nNepravidelné stupňovanie: pekný–krajší, veľký–väčší, zlý–horší, dobrý–lepší, malý–menší.",
+      "color": "#2B8A3E"
+    },
+    {
+      "id": "slj-q03",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach sa všetky prídavné mená stupňujú nepravidelne?\nA. pekný, veľký, zlý, dobrý\nB. veľký, dobrý, pekný, škaredý\nC. zlý, malý, studený, teplý\nD. pekný, dobrý, zlý, malý",
+      "options": [
+        "B a C",
+        "A a D",
+        "C a D",
+        "Len A"
+      ],
+      "correctIndex": 1,
+      "explanation": "A a D: pekný–krajší, veľký–väčší, zlý–horší, dobrý–lepší, malý–menší. V B a C sú pravidelné: škaredý–škaredší, studený–studenší, teplý–teplejší."
+    },
+    {
+      "id": "slj-q04",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach sa všetky podstatné mená skloňujú podľa toho istého vzoru?\nA. dedko, brat, spisovateľ\nB. sukňa, sója, hrádza\nC. laň, loď, byľ\nD. ujo, pravítko, lano",
+      "options": [
+        "Všetky štyri",
+        "B, C a D",
+        "A, B a C",
+        "Len A a C"
+      ],
+      "correctIndex": 2,
+      "explanation": "A: chlap. B: ulica (sukňa, sója, hrádza končia mäkkou spoluhláskou). C: dlaň. D nie je správne: ujo je chlap, ale pravítko a lano sú mesto."
+    },
+    {
+      "id": "slj-q08",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých vetách sa nachádza slovo, ktoré sa skloňuje podľa vzoru chlap?\nA. Strýko niečo opravuje v garáži.\nB. Na trávniku stáli dvaja golfisti.\nC. Pri mori som si našiel veľa kamarátov.\nD. Čítaš aj knihy slovenských autorov?",
+      "options": [
+        "A, B a C",
+        "A, C a D",
+        "B a D",
+        "A a C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Podľa vzoru chlap sa skloňujú: strýko (A), kamarátov (C), autorov (D). „Golfisti“ patrí k vzoru hrdina (golfista)."
+    },
+    {
+      "id": "slj-q27",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorej možnosti sa podstatné mená skloňujú podľa odlišných vzorov?",
+      "options": [
+        "Janko, Janíčko",
+        "Jana, Janka",
+        "Božena, Boženka",
+        "Boža, Božena"
+      ],
+      "correctIndex": 3,
+      "explanation": "Boža sa skloňuje podľa vzoru ulica (končí mäkkou spoluhláskou ž), Božena podľa vzoru žena. V ostatných dvojiciach majú mená rovnaký vzor."
+    },
+    {
+      "id": "slj-q06",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých vetách sa nachádza tvar osobného zámena „ja“?\nA. Spomenul som si pri tom na ňu.\nB. Poď tam radšej so mnou.\nC. Povedz mi to rovno do očí.\nD. Nevedel som mu s tým pomôcť.",
+      "options": [
+        "B a C",
+        "Len B",
+        "A a D",
+        "C a D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tvary zámena ja: so mnou (B) a mi (C). „Ňu“ je tvar zámena ona (A). „Som“ v D je sloveso, nie zámeno."
+    },
+    {
+      "id": "slj-q07",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých možnostiach majú všetky slová správny tvar genitívu množného čísla?\nA. detí, jahôd, piesní\nB. seriálov, fialiek, žiab\nC. lôpt, hadov, husí\nD. kľúčoch, áut, lístia",
+      "options": [
+        "A, B a C",
+        "A, B, C a D",
+        "Len A",
+        "B a C"
+      ],
+      "correctIndex": 0,
+      "explanation": "A, B aj C sú správne genitívy množného čísla. V D je „kľúčoch“ lokál, nie genitív."
+    },
+    {
+      "id": "slj-q11",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "V ktorých vetách predložka „na“ vyjadruje akuzatív?\nA. Často myslí na svojho psa.\nB. Veľmi jej záleží na dobrých vzťahoch.\nC. Všetku vinu zvalili na mňa.\nD. Už sa tešíme na sobotňajší výlet.",
+      "options": [
+        "A, B a C",
+        "B a D",
+        "A, C a D",
+        "A a C"
+      ],
+      "correctIndex": 2,
+      "explanation": "Akuzatív (na koho? na čo?): na psa, na mňa, na výlet. V B je „na vzťahoch“ lokál (na kom? na čom?)."
+    },
+    {
+      "id": "slj-q12",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Ktorú skupinu slov možno zoradiť tak, že vznikne zmysluplná veta?",
+      "options": [
+        "tajomstvách, kníh, doma, veľa, o, starých, zaujímavé, civilizácií",
+        "vzájomný, náš, počas, s bratom, lyžovačky, sa zlepšil, zimnej",
+        "na, loptu, vreckový, si beriem, školský, psa, výlet, svojho, a",
+        "zážitkom, deti, bola, pre, lesom, všetky, silným, cesta, nočným"
+      ],
+      "correctIndex": 3,
+      "explanation": "Správna veta: „Cesta nočným lesom bola pre všetky deti silným zážitkom.“ V ostatných skupinách sa slová nedajú zoradiť do gramaticky správnej vety."
+    },
+    {
+      "id": "slj-q17",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Ktorý z veršov ukážky č. 1 (Oznam do novín) obsahuje personifikáciu?",
+      "options": [
+        "Nakreslil som rybku – nožík, ako vyzerá.",
+        "aby zase nevyskočil z vrecka",
+        "iba teraz, keď mám šediny.",
+        "Našiel som nožík – rybku."
+      ],
+      "correctIndex": 1,
+      "explanation": "Personifikácia = veci sa pripisuje ľudská alebo živá vlastnosť. Nožík „vyskočí z vrecka“ ako živá bytosť."
+    },
+    {
+      "id": "slj-q24",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Prepíš podčiarknutú vetu do nepriamej reči:\nSpýtal som sa Petra, kde je moja kniha. „Donesiem ti ju zajtra,“ odpovedal.",
+      "options": [
+        "Odpovedal, že ti ju donesiem zajtra.",
+        "Odpovedal: Donesiem ti ju zajtra.",
+        "Odpovedal, že mi ju donesie na druhý deň.",
+        "Odpovedal, že mi ju doniesol včera."
+      ],
+      "correctIndex": 2,
+      "explanation": "V nepriamej reči sa menia zámená aj sloveso: „donesiem ti“ → „že mi ju donesie“. „Zajtra“ sa mení na „na druhý deň“ alebo „nasledujúci deň“."
+    },
+    {
+      "id": "slj-q29b",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Daj sloveso „napísať“ do 1. osoby jednotného čísla budúceho času:\nTen list ______ sám.",
+      "options": [
+        "napíšem",
+        "budem písať",
+        "nenapíšem",
+        "napísal som"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napísať je dokonavé sloveso, preto budúci čas tvorí jednoduchým tvarom: napíšem."
+    },
+    {
+      "id": "slj-q29c",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Daj sloveso „čítať“ do 1. osoby jednotného čísla budúceho času:\nKniha je taká zaujímavá, že ju ______ celý víkend.",
+      "options": [
+        "prečítam",
+        "čítal som",
+        "čítam",
+        "budem čítať"
+      ],
+      "correctIndex": 3,
+      "explanation": "Čítať je nedokonavé sloveso, budúci čas tvorí pomocné sloveso + infinitív: budem čítať. „Čítam“ je prítomný čas."
+    },
+    {
+      "id": "slj-q34a",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Prepíš vetu tak, aby všetky podstatné mená boli v množnom čísle:\nŠikovný opravár prečistil každý motor v dielni.",
+      "options": [
+        "Šikovní opravári prečistili každý motory v dielni.",
+        "Šikovní opravári prečistili všetky motory v dielňach.",
+        "Šikovný opravári prečistili všetky motory v dielňach.",
+        "Šikovní opravári prečistil všetky motory v dielňach."
+      ],
+      "correctIndex": 1,
+      "explanation": "Prídavné meno sa zhoduje s podstatným: šikovný opravár → šikovní opravári (mužský rod životný). Sloveso: prečistili. Každý motor → všetky motory, v dielni → v dielňach."
+    },
+    {
+      "id": "slj-q34b",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Prepíš vetu tak, aby všetky podstatné mená boli v množnom čísle:\nMladý človek navštívil neznámy ostrov.",
+      "options": [
+        "Mladí ľudia navštívili neznámy ostrovy.",
+        "Mladý ľudia navštívili neznáme ostrovy.",
+        "Mladí ľudia navštívili neznáme ostrovy.",
+        "Mladí ľudia navštívil neznáme ostrovy."
+      ],
+      "correctIndex": 2,
+      "explanation": "Človek → ľudia (nepravidelné množné číslo), preto mladí ľudia (mužský rod životný: -í). Sloveso: navštívili. Neznámy ostrov → neznáme ostrovy."
+    },
+    {
+      "id": "slj-q28f",
+      "subject": "Slovenský jazyk",
+      "type": "quiz",
+      "question": "Kino HVIEZDA: Peter neobsedí v kine viac ako hodinu a pol. Ktorý film mu odporučíš?",
+      "options": [
+        "Hviezdolet (127 min)",
+        "Tak už poď! (80 min)",
+        "Strýko jazvec (114 min)",
+        "Vodná guľa (94 min)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hodina a pol = 90 minút. Tak už poď! trvá 80 minút (1 h 20 min), takže sa zmestí. Vodná guľa trvá 94 minút, teda je dlhšia."
     }
   ]
 }
