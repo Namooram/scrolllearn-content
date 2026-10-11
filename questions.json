@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updated": "2026-10-10",
+  "questions": [
+    {
+      "id": "bio-001",
+      "subject": "Biology",
+      "type": "quiz",
+      "question": "What is the chemical symbol for water?",
+      "options": ["H2O", "CO2", "NaCl", "O2"],
+      "correctIndex": 0,
+      "explanation": "Water is made of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "id": "geo-001",
+      "subject": "Geography",
+      "type": "quiz",
+      "question": "What is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"],
+      "correctIndex": 2,
+      "explanation": "The Pacific covers about 30% of Earth's surface."
+    },
+    {
+      "id": "note-001",
+      "type": "text",
+      "title": "Welcome to ScrollLearn!",
+      "content": "Swipe up to review the questions you missed. Tap an answer to see if you got it right.\n\nUse the refresh button to pull your latest questions from GitHub.",
+      "color": "#6B48FF"
+    }
+  ]
+}
